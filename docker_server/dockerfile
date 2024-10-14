@@ -22,7 +22,8 @@ RUN mkdir build && cd build && \
   cmake .. && \
   make
 
-EXPOSE 8080
+EXPOSE 8080/tcp
+
 
 CMD ["./build/server"]
 

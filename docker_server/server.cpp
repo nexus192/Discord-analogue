@@ -90,7 +90,8 @@ void Session::do_write() {
 
 // Реализация методов Server
 Server::Server(boost::asio::io_context& io_context, short port)
-    : acceptor_(io_context, tcp::endpoint(tcp::v4(), port)) {
+    : acceptor_(io_context,
+                tcp::endpoint(boost::asio::ip::address_v4::any(), port)) {
   do_accept();
 }
 

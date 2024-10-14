@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-81f646643f50dbad32ad.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mass",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "mass::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mass-Debug-298ce662984331d20419.json",
+					"name" : "mass",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mass_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mass_autogen-Debug-3545f510c34044071df8.json",
+					"name" : "mass_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mass_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mass_autogen_timestamp_deps-Debug-99ea3354f51c1d12b5e1.json",
+					"name" : "mass_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nexus/Desktop/mass/build/Desktop-Debug",
+		"source" : "/home/nexus/Desktop/mass"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
